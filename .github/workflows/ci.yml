@@ -34,7 +34,7 @@ jobs:
     # 4 Run tests
     - name: Run pytest
       run: |
-        pytest
+        PYTHONPATH=. pytest
 
 
     # 5 Build Docker Image
